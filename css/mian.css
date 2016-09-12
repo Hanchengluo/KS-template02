@@ -137,22 +137,33 @@ background-color: #2675bc;
 
 }
 .u-article-imglist ul{
-  padding:5px 0;
+    padding: 0;
+    margin-bottom: 0;
 }
 .u-article-imglist img{
   padding-right: 10px;
 }
 .u-article-imglist li{
   padding: 5px 0;
+  list-style-type: none;
 }
 .u-article-imglist li a{
   color: #5e6b73;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: none;
+  max-width: 100%;
+  min-width: 200px;
+  display:block;
 }
 .u-article-imglist li a:hover{
   color: #d59f2a;
 }
 .u-article-imglist li p{
   color: #a6a6a6;
+  margin-bottom: 0;
 }
 .u-article-list{
 
